@@ -1,0 +1,141 @@
+-- Silas Little Experimental Forest.tif --
+Header: 0x4949 <little-endian> <ClassicTIFF>
+Directory 0: offset 57186 (0xdf62)
+  ImageWidth 256 (0x100) SHORT: 93
+  ImageLength 257 (0x101) SHORT: 94
+  BitsPerSample 258 (0x102) SHORT: <8> 16 16 16 16 16 16 16 16
+  Compression 259 (0x103) SHORT: 5 (LZW 5 (0x5))
+  Photometric 262 (0x106) SHORT: 1 (MinIsBlack 1 (0x1))
+  SamplesPerPixel 277 (0x115) SHORT: 8
+  PlanarConfig 284 (0x11C) SHORT: 1 (Chunky 1 (0x1))
+  Predictor 317 (0x13D) SHORT: 1 (None 1 (0x1))
+  TileWidth 322 (0x142) SHORT: 128
+  TileLength 323 (0x143) SHORT: 128
+  TileOffsets 324 (0x144) LONG: 17563
+  TileByteCounts 325 (0x145) LONG: 36633
+  ExtraSamples 338 (0x152) SHORT: <7> 0 (Unspecified 0 (0x0)) 0 (Unspecified 0 (0x0)) 0 (Unspecified 0 (0x0)) 0 (Unspecified 0 (0x0)) 0 (Unspecified 0 (0x0)) 0 (Unspecified 0 (0x0)) 0 (Unspecified 0 (0x0))
+  SampleFormat 339 (0x153) SHORT: <8> 2 (int 2 (0x2)) 2 (int 2 (0x2)) 2 (int 2 (0x2)) 2 (int 2 (0x2)) 2 (int 2 (0x2)) 2 (int 2 (0x2)) 2 (int 2 (0x2)) 2 (int 2 (0x2))
+  ModelPixelScaleTag 33550 (0x830E) DOUBLE: <3> 30 30 0
+  ModelTiepointTag 33922 (0x8482) DOUBLE: <6> 0 0 0 -1394.642016 1416.906796 0
+  GeoKeyDirectoryTag 34735 (0x87AF) SHORT: <100> 1 1 0 24 1024 0 1 1 1025 0 1 1 1026 34737 38 0 2048 0 1 4269 ...
+    GTModelType: 1
+    GTRasterType: 1
+    GTCitation: PCS Name = North_American_1983_Albers
+    GeographicType: 4269
+    GeogCitation: GCS Name = GCS_North_American_1983|Datum = D_North_American_1983|Ellipsoid = GRS_1980|Primem = Greenwich|
+    GeogGeodeticDatum: 6269
+    GeogPrimeMeridian: 8901
+    GeogAngularUnits: 9102
+    GeogAngularUnitSize: 0.0174532925199433
+    GeogEllipsoid: 7019
+    GeogSemiMajorAxis: 6378137.0
+    GeogInvFlattening: 298.257222101
+    GeogPrimeMeridianLong: 0.0
+    ProjectedCSType: 32767
+    PCSCitation: ESRI PE String = PROJCS["North_American_1983_Albers",GEOGCS["GCS_North_American_1983",DATUM["D_North_American_1983",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Albers"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["central_meridian",-74.59649],PARAMETER["Standard_Parallel_1",39.90453],PARAMETER["Standard_Parallel_2",39.92963],PARAMETER["latitude_of_origin",39.91708],UNIT["Meter",1.0]]
+    Projection: 32767
+    ProjCoordTrans: 11
+    ProjLinearUnits: 9001
+    ProjStdParallel1: 39.90453
+    ProjStdParallel2: 39.92963
+    ProjNatOriginLong: -74.59649
+    ProjNatOriginLat: 39.91708
+    ProjFalseEasting: 0.0
+    ProjFalseNorthing: 0.0
+  GeoDoubleParamsTag 34736 (0x87B0) DOUBLE: <10> 39.90453 39.92963 39.91708 -74.59649 0 0 0.01745329252 6378137 298.2572221 0
+  GeoAsciiParamsTag 34737 (0x87B1) ASCII: PCS Name = North_American_1983_Albers|GCS Name = GCS_North_American_1983|Datum = D_North_American_1983|Ellipsoid = GRS_1980|Primem = Greenwich||ESRI PE String = PROJCS["North_American_1983_Albers",GEOGCS["GCS_North_American_1983",DATUM["D_North_American_1983",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Albers"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["central_meridian",-74.59649],PARAMETER["Standard_Parallel_1",39.90453],PARAMETER["Standard_Parallel_2",39.92963],PARAMETER["latitude_of_origin",39.91708],UNIT["Meter",1.0]]|
+  GDAL_Metadata 42112 (0xA480) ASCII: <GDALMetadata>
+  <Item name="DataType">Thematic</Item>
+  <Item name="PyramidResamplingType" domain="Esri">NEAREST</Item>
+  <Item name="BandName" sample="0">LF2020_Elev_CONUS</Item>
+  <Item name="RepresentationType" sample="0">ATHEMATIC</Item>
+  <Item name="STATISTICS_COVARIANCES" sample="0">21.0111597480365,-0.7695671602449168,-7.049686678412593,-23.14576942637364,12.83120918882989,70.66576842603229,32.74719666554569,-0.341576082923808</Item>
+  <Item name="STATISTICS_MAXIMUM" sample="0">39</Item>
+  <Item name="STATISTICS_MEAN" sample="0">29.160947151681</Item>
+  <Item name="STATISTICS_MEDIAN" sample="0">30.929412</Item>
+  <Item name="STATISTICS_MINIMUM" sample="0">18</Item>
+  <Item name="STATISTICS_SKIPFACTORX" sample="0">1</Item>
+  <Item name="STATISTICS_SKIPFACTORY" sample="0">1</Item>
+  <Item name="STATISTICS_STDDEV" sample="0">4.5837931615679</Item>
+  <Item name="DESCRIPTION" sample="0" role="description">LF2020_Elev_CONUS</Item>
+  <Item name="BandName" sample="1">LF2020_SlpP_CONUS</Item>
+  <Item name="RepresentationType" sample="1">ATHEMATIC</Item>
+  <Item name="STATISTICS_COVARIANCES" sample="1">-0.7695671602449168,2.89490537458001,35.39801385670782,-1.477514002636803,-2.989574451595948,1.034196404938337,2.934625963349914,-0.9976586173114034</Item>
+  <Item name="STATISTICS_MAXIMUM" sample="1">15</Item>
+  <Item name="STATISTICS_MEAN" sample="1">1.5442690459849</Item>
+  <Item name="STATISTICS_MEDIAN" sample="1">1.000000</Item>
+  <Item name="STATISTICS_MINIMUM" sample="1">0</Item>
+  <Item name="STATISTICS_SKIPFACTORX" sample="1">1</Item>
+  <Item name="STATISTICS_SKIPFACTORY" sample="1">1</Item>
+  <Item name="STATISTICS_STDDEV" sample="1">1.7014421455283</Item>
+  <Item name="DESCRIPTION" sample="1" role="description">LF2020_SlpP_CONUS</Item>
+  <Item name="BandName" sample="2">LF2020_Asp_CONUS</Item>
+  <Item name="RepresentationType" sample="2">ATHEMATIC</Item>
+  <Item name="STATISTICS_COVARIANCES" sample="2">-7.049686678412593,35.39801385670782,1592.107029183808,-21.87011220299867,-50.12421908434313,-41.93111672911752,32.30691388529127,-15.99209629901772</Item>
+  <Item name="STATISTICS_MAXIMUM" sample="2">357</Item>
+  <Item name="STATISTICS_MEAN" sample="2">6.3371082132235</Item>
+  <Item name="STATISTICS_MEDIAN" sample="2">-1.000000</Item>
+  <Item name="STATISTICS_MINIMUM" sample="2">-1</Item>
+  <Item name="STATISTICS_SKIPFACTORX" sample="2">1</Item>
+  <Item name="STATISTICS_SKIPFACTORY" sample="2">1</Item>
+  <Item name="STATISTICS_STDDEV" sample="2">39.901215886033</Item>
+  <Item name="DESCRIPTION" sample="2" role="description">LF2020_Asp_CONUS</Item>
+  <Item name="BandName" sample="3">LF2024_FBFM40_CONUS</Item>
+  <Item name="RepresentationType" sample="3">ATHEMATIC</Item>
+  <Item name="STATISTICS_COVARIANCES" sample="3">-23.14576942637364,-1.477514002636803,-21.87011220299867,498.3115281028594,335.4271561629261,1005.366043200928,94.95883070735668,85.34483180281178</Item>
+  <Item name="STATISTICS_MAXIMUM" sample="3">189</Item>
+  <Item name="STATISTICS_MEAN" sample="3">148.0399222146</Item>
+  <Item name="STATISTICS_MEDIAN" sample="3">147.878431</Item>
+  <Item name="STATISTICS_MINIMUM" sample="3">91</Item>
+  <Item name="STATISTICS_SKIPFACTORX" sample="3">1</Item>
+  <Item name="STATISTICS_SKIPFACTORY" sample="3">1</Item>
+  <Item name="STATISTICS_STDDEV" sample="3">22.322892467215</Item>
+  <Item name="DESCRIPTION" sample="3" role="description">LF2024_FBFM40_CONUS</Item>
+  <Item name="BandName" sample="4">LF2024_CC_CONUS</Item>
+  <Item name="RepresentationType" sample="4">ATHEMATIC</Item>
+  <Item name="STATISTICS_COVARIANCES" sample="4">12.83120918882989,-2.989574451595948,-50.12421908434313,335.4271561629261,608.8155716775946,1469.290358882976,218.1632050154478,155.9694047236645</Item>
+  <Item name="STATISTICS_MAXIMUM" sample="4">85</Item>
+  <Item name="STATISTICS_MEAN" sample="4">51.135323724548</Item>
+  <Item name="STATISTICS_MEDIAN" sample="4">55.000000</Item>
+  <Item name="STATISTICS_MINIMUM" sample="4">0</Item>
+  <Item name="STATISTICS_SKIPFACTORX" sample="4">1</Item>
+  <Item name="STATISTICS_SKIPFACTORY" sample="4">1</Item>
+  <Item name="STATISTICS_STDDEV" sample="4">24.674188369176</Item>
+  <Item name="DESCRIPTION" sample="4" role="description">LF2024_CC_CONUS</Item>
+  <Item name="BandName" sample="5">LF2024_CH_CONUS</Item>
+  <Item name="RepresentationType" sample="5">ATHEMATIC</Item>
+  <Item name="STATISTICS_COVARIANCES" sample="5">70.66576842603229,1.034196404938337,-41.93111672911752,1005.366043200928,1469.290358882976,5027.200012322353,856.2787011229424,325.8438095139381</Item>
+  <Item name="STATISTICS_MAXIMUM" sample="5">270</Item>
+  <Item name="STATISTICS_MEAN" sample="5">152.62296957218</Item>
+  <Item name="STATISTICS_MEDIAN" sample="5">189.529412</Item>
+  <Item name="STATISTICS_MINIMUM" sample="5">0</Item>
+  <Item name="STATISTICS_SKIPFACTORX" sample="5">1</Item>
+  <Item name="STATISTICS_SKIPFACTORY" sample="5">1</Item>
+  <Item name="STATISTICS_STDDEV" sample="5">70.902750386162</Item>
+  <Item name="DESCRIPTION" sample="5" role="description">LF2024_CH_CONUS</Item>
+  <Item name="BandName" sample="6">LF2024_CBH_CONUS</Item>
+  <Item name="RepresentationType" sample="6">ATHEMATIC</Item>
+  <Item name="STATISTICS_COVARIANCES" sample="6">32.74719666554569,2.934625963349914,32.30691388529127,94.95883070735668,218.1632050154478,856.2787011229424,402.1047959229153,39.33810697232244</Item>
+  <Item name="STATISTICS_MAXIMUM" sample="6">100</Item>
+  <Item name="STATISTICS_MEAN" sample="6">30.028254404027</Item>
+  <Item name="STATISTICS_MEDIAN" sample="6">23.921569</Item>
+  <Item name="STATISTICS_MINIMUM" sample="6">0</Item>
+  <Item name="STATISTICS_SKIPFACTORX" sample="6">1</Item>
+  <Item name="STATISTICS_SKIPFACTORY" sample="6">1</Item>
+  <Item name="STATISTICS_STDDEV" sample="6">20.052550858255</Item>
+  <Item name="DESCRIPTION" sample="6" role="description">LF2024_CBH_CONUS</Item>
+  <Item name="BandName" sample="7">LF2024_CBD_CONUS</Item>
+  <Item name="RepresentationType" sample="7">ATHEMATIC</Item>
+  <Item name="STATISTICS_COVARIANCES" sample="7">-0.341576082923808,-0.9976586173114034,-15.99209629901772,85.34483180281178,155.9694047236645,325.8438095139381,39.33810697232244,59.03431947167901</Item>
+  <Item name="STATISTICS_MAXIMUM" sample="7">34</Item>
+  <Item name="STATISTICS_MEAN" sample="7">11.49233584992</Item>
+  <Item name="STATISTICS_MEDIAN" sample="7">10.933333</Item>
+  <Item name="STATISTICS_MINIMUM" sample="7">0</Item>
+  <Item name="STATISTICS_SKIPFACTORX" sample="7">1</Item>
+  <Item name="STATISTICS_SKIPFACTORY" sample="7">1</Item>
+  <Item name="STATISTICS_STDDEV" sample="7">7.6833794304121</Item>
+  <Item name="DESCRIPTION" sample="7" role="description">LF2024_CBD_CONUS</Item>
+</GDALMetadata>
+
+  GDAL_NoData 42113 (0xA481) ASCII: -9999
+
