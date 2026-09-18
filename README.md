@@ -28,3 +28,8 @@ curl -G https://lfps.usgs.gov/api/job/submit \
 | 8    | Canopy Base Density | `LF2024_CBD`    |
 
 [^note]: [2020 Scott and Burgan Fire Behavior Fuel Model](https://www.arcgis.com/home/item.html?id=c2e84935e39c468e92fd2e8bfc0fcf38#overview) 
+
+## More Information
+
+- The output of [tifftools](https://pypi.org/project/tifftools/) via `tifftools dump` is [here](/tiffinfo-dump.txt)
+- The output of GDAL's [gdalinfo](https://gdal.org/en/stable/programs/gdalinfo.html) is [here](/gdal-info.txt)
